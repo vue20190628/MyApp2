@@ -1,0 +1,142 @@
+#a{
+    height: 6vh;  
+    width:100vw; 
+    background-color: rgb(48, 144, 232);
+    position: fixed;
+    left:0;
+    top:0;
+    position: relative;
+}
+#a>p:nth-of-type(1){
+   height: 100%;;
+   line-height: 6vh;
+   font-size: 1.2rem;
+   position: absolute;
+   left:0;
+   top:0;
+   color: white; 
+}
+#a>p:nth-of-type(2){ 
+    height: 6vh;
+    line-height: 6vh;    
+    text-align: center;     
+}
+#a span{
+    display: inline-block;
+    width:60%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: white; 
+    font-size: 1.4rem;
+}
+#b{
+    border-bottom: 0.01rem solid rgba(160, 157, 157, 0.514);
+}
+#slideshow>li{
+    width:25%;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    padding:1vh 0 2vh 0;   
+    background-color: white;
+    color: rgb(137, 137, 137)
+}
+#slideshow>li img{
+    width:50%;
+}
+#slideshow>li>p:nth-of-type(2){
+    font-size: 0.8rem;
+}
+.detail{
+    margin-top: 1.5vh;
+    border: 0.01rem solid rgba(160, 157, 157, 0.514);
+    background-color: white;
+}
+.shops{
+    height: 14%;
+    overflow: hidden;
+    margin: 1vh 0 1vh 0;
+    padding-bottom:1vh;
+    border-bottom:0.01rem solid rgb(160, 157, 157);
+}
+.shops>div:nth-of-type(1){
+    float: left;
+}
+.shops>div>img{
+    width:18vw;
+    // height: 10vh;
+    }
+.shops>div:nth-of-type(2){
+    width:80vw;
+    height: 10vh;
+    float: left; 
+    overflow: hidden;    
+    // border:0.01rem solid red;
+}
+#firstLine {
+    vertical-align:top;
+    // border: 0.01rem solid red;
+    overflow: hidden;
+    padding: 0 0 1vh 2vw; 
+  }
+  #firstLine>p:nth-of-type(1){
+    // font-size:1rem;
+    font-weight: bold;
+    color: black; 
+    float: left;
+    background-color: gold;
+  } 
+#firstLine>p:nth-of-type(2){   
+    // font-size: 1rem;
+    font-weight: bold;
+    color: gray; 
+    float: left;
+  }
+#firstLine>p:nth-of-type(3){
+      float: right;
+  }
+  #firstLine span{
+   font-size: 0.6rem;
+}
+  #secondLine{
+    overflow: hidden;
+    padding:1vh  0 1vh 2vw; 
+  }
+  #secondLine span{
+    display: inline-block;
+  }
+  #secondLine>span:nth-of-type(1){    
+    font-size: 0.6rem;
+   }
+  #secondLine>span:nth-of-type(2){
+   border: 0.01rem solid blue;
+   float: right;
+   font-size: 0.6rem;
+  }
+  #secondLine>span:nth-of-type(2)>span:nth-of-type(1){
+    color:white;
+    background-color: blue;
+   }
+#secondLine>span:nth-of-type(2)>span:nth-of-type(2){      
+    color:blue;
+ }
+#thirdLine{ 
+    vertical-align:bottom; 
+    padding:1vh 0 1vh 2vw; 
+}
+#thirdLine>span{  
+   display: inline-block;
+   overflow: hidden;
+}
+#thirdLine>span:nth-of-type(1){   
+    font-size: 0.6rem;
+    float: left;
+}
+#thirdLine>span:nth-of-type(2){ 
+    float: right;  
+    font-size: 0.6rem;
+}
+#thirdLine>span:nth-of-type(2)>span:nth-of-type(2){ 
+   color: blue;
+}
